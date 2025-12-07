@@ -7,14 +7,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Sortof from "../Sortof/Sortof";
 
-const TourCategory = ({ title, data }) => {
+const TourCategory = ({ title, data, handleSort }) => {
   return (
     <div>
       <div className="flex items-center justify-between">
       <h2 className="my-10 text-4xl font-bold text-[#013879] text-center">
         {title}
       </h2>
-      <Sortof />
+      <Sortof handleSort={handleSort}/>
       </div>
       <div className="grid grid-cols-none sm:grid-cols-3 justify-items-stretch items-start gap-x-4 gap-y-12">
         {data && data.length > 0

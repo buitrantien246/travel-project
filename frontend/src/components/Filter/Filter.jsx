@@ -2,9 +2,9 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import SelectRadio from "../SelectRadio/SelectRadio";
 import SelectBox from "../SelectBox/SelectBox";
-import { tourOptions, DestinationOptions, PlaceOptions } from "../../data/options";
+import { tourOptions, DestinationOptions } from "../../data/options";
 
-const Filter = ({handleFilterRadio}) => {
+const Filter = ({handleFilterRadio, departure, destination, options}) => {
 
   const handleRadio = (id) => {
     handleFilterRadio(id)
@@ -13,9 +13,9 @@ const Filter = ({handleFilterRadio}) => {
   return (
     <div className="bg-gray-100 w-[90%] h-auto px-6 py-8 flex flex-col space-y-4">
       <SelectRadio tourOptions={tourOptions} handleFilterRadio={handleRadio}/>
-      <SelectBox title={"Điểm đi"} title2={"Điểm điểm đi"} options={DestinationOptions}/>
-      <SelectBox title={"Điểm đến"} title2={"Điểm điểm đến"} options={PlaceOptions}/>
-      <button className="button text-white">Lọc</button>
+      <SelectBox title={"Điểm đi"} title2={"Điểm điểm đi"} options={DestinationOptions} departure={departure}/>
+      <SelectBox title={"Điểm đến"} title2={"Điểm điểm đến"} options={options} destination={destination}/>
+      {/* <button className="button text-white">Lọc</button> */}
     </div>
   );
 };

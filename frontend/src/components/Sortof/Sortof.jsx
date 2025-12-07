@@ -4,9 +4,9 @@ import { faSort } from "@fortawesome/free-solid-svg-icons";
 
 const sortOfPrice = ["Giá thấp → cao", "Giá cao → thấp"];
 
-const Sortof = () => {
+const Sortof = ({ handleSort }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedValue, setSelectedValue] = useState("Giá thấp -> cao");
+  // const [selectedValue, setSelectedValue] = useState("Giá thấp -> cao");
   const dropdownRef = useRef(null);
   useEffect(() => {
     function handleClickOutside(event) {
@@ -21,7 +21,8 @@ const Sortof = () => {
   }, []);
 
   const handleSelect = (value) => {
-    setSelectedValue(value);
+    // setSelectedValue(value);
+    handleSort(value)
     setIsOpen(false);
   };
 
@@ -30,11 +31,19 @@ const Sortof = () => {
   };
   return (
     <div className="relative" ref={dropdownRef}>
-    <div className="pr-4">
-      <p className="text-[#013879] text-lg font-semibold select-none" onClick={toggleDropdown}>
-        <FontAwesomeIcon icon={faSort} className={`text-xl transition-transform duration-200 ${isOpen ? 'transform rotate-180' : ''}`} />
-        Sắp xếp theo
-      </p>
+      <div className="pr-4">
+        <p
+          className="text-[#013879] text-lg font-semibold select-none"
+          onClick={toggleDropdown}
+        >
+          <FontAwesomeIcon
+            icon={faSort}
+            className={`text-xl transition-transform duration-200 ${
+              isOpen ? "transform rotate-180" : ""
+            }`}
+          />
+          Sắp xếp theo
+        </p>
       </div>
       <div>
         {/* DANH SÁCH TÙY CHỌN (DROPDOWN MENU) */}
@@ -51,24 +60,18 @@ const Sortof = () => {
         `}
         >
           {/* Các tùy chọn lọc giá */}
-          {sortOfPrice.map((option) => (
-            <div
-              key={option}
-              onClick={() => handleSelect(option)}
-              className={`
-              p-1 
-              cursor-pointer 
-              transition duration-100
-              ${
-                selectedValue === option
-                  ? "text-red-500 text-sm"
-                  : "text-black hover:bg-gray-100 text-sm"
-              }
-            `}
-            >
-              {option}
-            </div>
-          ))}
+          <div
+            onClick={() => handleSelect("asc")}
+            className="p-1 cursor-pointer transition duration-100 active:text-red-500 text-black hover:bg-gray-100 text-sm select-none"
+          >
+            Giá thấp → cao
+          </div>
+          <div
+            onClick={() => handleSelect("desc")}
+            className="p-1 cursor-pointer transition duration-100 active:text-red-500 text-black hover:bg-gray-100 text-sm select-none"
+          >
+            Giá cao → thấp
+          </div>
         </div>
       </div>
     </div>

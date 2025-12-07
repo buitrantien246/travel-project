@@ -11,7 +11,7 @@ export const fetchProduct = createAsyncThunk(
 
 // Thunk gọi API filter sản phẩm
 export const fetchFilterProducts = createAsyncThunk(
-  "products/fetchProducts",
+  "products/fetchFilterProducts",
   async (filterParams, thunkAPI) => {
   //thunkAPI là 1 cái “hộp dụng cụ” Redux đưa cho bạn, bên trong có mấy thứ hữu ích như:
   //dispatch → để dispatch action khác nếu muốn
@@ -40,10 +40,10 @@ export const fetchFilterProducts = createAsyncThunk(
   }
 );
 
-export const fetchProjectId = createAsyncThunk(
-  "products/fetchProjectId",
-  async (projectId) => {
-    const res = await axiosClient.get(`/products/${projectId}`);
+export const fetchProductId = createAsyncThunk(
+  "products/fetchProductId",
+  async (fetchProductId) => {
+    const res = await axiosClient.get(`/products/${fetchProductId}`);
     return res.data;
   }
 )
@@ -77,7 +77,7 @@ const productSlice = createSlice({
   initialState: {
     products: [],
     filterProducts: [],
-    currentProject: null,
+    currentProduct: null,
     filter: "All",
     loading: false,
     error: null,
@@ -127,15 +127,15 @@ const productSlice = createSlice({
         state.loading = false;
         state.error = action.error.message;
       })
-      .addCase(fetchProjectId.pending, (state) => {
+      .addCase(fetchProductId.pending, (state) => {
         state.loading = true;
         state.error = null;
       })
-      .addCase(fetchProjectId.fulfilled, (state, action) => {
+      .addCase(fetchProductId.fulfilled, (state, action) => {
         state.loading = false;
-        state.currentProject = action.payload;
+        state.currentProduct = action.payload;
       })
-      .addCase(fetchProjectId.rejected, (state, action) => {
+      .addCase(fetchProductId.rejected, (state, action) => {
         state.loading = false;
         state.error = action.error.message;
       })

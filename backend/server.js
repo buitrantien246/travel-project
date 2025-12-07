@@ -649,6 +649,718 @@ let products = [
         "Chương trình tham quan tại Chiang Mai và Chiang Rai chủ yếu đi bộ, cần chuẩn bị giày thể thao thoải mái.",
     },
   },
+  {
+    id: 13,
+    name: "Tour Tây Bắc 5 ngày 4 đêm: Hà Nội - Mai Châu - Mộc Châu",
+    destination: "Mai Châu, Mộc Châu, Hòa Bình, Sơn La",
+    destinationSuggestions: [
+      "Mai Châu",
+      "Mộc Châu",
+      "Sapa",
+      "Hà Giang"
+    ],
+    departure: "Hà Nội",
+    startDate: "2025-10-05",
+    endDate: "2025-10-09",
+    duration: "5 ngày 4 đêm",
+    durationRange: "4-7 ngày",
+    price: 4350000,
+    images: [
+      "https://maichauhideaway.com/Data/Sites/1/media/tin-tuc/%E1%BA%A3nh-b%C3%A0i-vi%E1%BA%BFt/t4-2025/du-l%E1%BB%8Bch-t%C3%A2y-b%E1%BA%AFc-th%C3%A1ng-7/du-l%E1%BB%8Bch-t%C3%A2y-b%E1%BA%AFc-th%C3%A1ng-7-(2).png",
+      "https://product.hstatic.net/200000712583/product/ngam-deo-khau-pha_96df964d49ba4d27919226b02d178a27.jpg"
+    ],
+    description: "Khám phá vẻ đẹp yên bình của Mai Châu, các đồi chè xanh mướt và nông trường bò sữa ở Mộc Châu.",
+    highlights: [
+      "Ngủ homestay tại Bản Lác (Mai Châu)",
+      "Tham quan đồi chè trái tim Mộc Châu",
+      "Thác Dải Yếm"
+    ],
+    categoryid: 1,
+    isfeatured: true,
+    schedule: {
+      day1: "Hà Nội - Mai Châu: Di chuyển đến Mai Châu, nhận homestay, đạp xe khám phá Bản Lác, Bản Pom Coọng.",
+      day2: "Mai Châu - Mộc Châu: Tham quan Hang Chiều. Di chuyển đi Mộc Châu, khám phá Rừng thông Bản Áng.",
+      day3: "Mộc Châu: Đồi chè trái tim, Nông trường bò sữa, Thác Dải Yếm. Tối tham gia lửa trại/ giao lưu văn nghệ dân tộc.",
+      day4: "Mộc Châu - Hòa Bình: Thăm quan Cổng trời Y Tý (chiều), Tối nghỉ tại Hòa Bình.",
+      day5: "Hòa Bình - Hà Nội: Tham quan nhà máy thủy điện Hòa Bình. Trở về Hà Nội."
+    },
+    priceDetails: {
+      included: [
+        "Xe du lịch đời mới đưa đón suốt tuyến.",
+        "Khách sạn/homestay tiêu chuẩn (4 đêm).",
+        "Các bữa ăn theo chương trình (4 bữa sáng, 5 bữa chính).",
+        "Vé tham quan các điểm theo chương trình.",
+        "Bảo hiểm du lịch."
+      ],
+      excluded: [
+        "Chi phí cá nhân, đồ uống, giao lưu văn nghệ."
+      ]
+    },
+    policy: {
+      booking: "Đặt cọc 30% khi đăng ký. Thanh toán hết 7 ngày trước ngày khởi hành.",
+      cancellation: "Hủy tour trước 10 ngày: Phí 10%. Hủy tour 5-9 ngày: Phí 50%. Hủy tour dưới 5 ngày: Phí 100%.",
+      notes: "Nên mang theo giày thể thao, áo ấm mỏng và chuẩn bị pin sạc dự phòng."
+    }
+  },
+  {
+    id: 14,
+    name: "Tour khám phá Miền Tây 3 ngày 2 đêm: Cần Thơ - Châu Đốc - Hà Tiên",
+    destination: "Cần Thơ, An Giang, Kiên Giang",
+    destinationSuggestions: [
+      "Cần Thơ",
+      "An Giang",
+      "Hà Tiên",
+      "Phú Quốc"
+    ],
+    departure: "TP. Hồ Chí Minh",
+    startDate: "2025-11-20",
+    endDate: "2025-11-22",
+    duration: "3 ngày 2 đêm",
+    durationRange: "1-3 ngày",
+    price: 3150000,
+    images: [
+      "https://hoangviettourist.com/wp-content/uploads/2023/11/100.jpg",
+      "https://pvv-photo.phuotvivu.com/res/photo/0/d/d/9/s0x0/c-n-th-i-s-n-1624508729168.jpg"
+    ],
+    description: "Hành trình khám phá nét văn hóa sông nước độc đáo của Miền Tây Nam Bộ.",
+    highlights: [
+      "Chợ nổi Cái Răng (Cần Thơ)",
+      "Miếu Bà Chúa Xứ Núi Sam (Châu Đốc)",
+      "Khu du lịch Mũi Nai (Hà Tiên)"
+    ],
+    categoryid: 1,
+    isfeatured: false,
+    schedule: {
+      day1: "TP.HCM - Cần Thơ: Khởi hành đi Cần Thơ, nhận phòng. Chiều tham quan Nhà cổ Bình Thủy, tối dạo Bến Ninh Kiều.",
+      day2: "Cần Thơ - Châu Đốc: Thăm Chợ nổi Cái Răng vào buổi sáng. Di chuyển về Châu Đốc (An Giang), tham quan Rừng Tràm Trà Sư, Miếu Bà Chúa Xứ.",
+      day3: "Châu Đốc - Hà Tiên - TP.HCM: Khám phá Thạch Động, Lăng Mạc Cửu (Hà Tiên). Sau đó về TP.HCM."
+    },
+    priceDetails: {
+      included: [
+        "Xe vận chuyển đời mới, máy lạnh.",
+        "Khách sạn tiêu chuẩn 3 sao (2 đêm).",
+        "Các bữa ăn theo chương trình (2 bữa sáng, 3 bữa trưa, 2 bữa tối).",
+        "Vé tham quan các điểm, tàu đi chợ nổi Cái Răng.",
+        "Bảo hiểm du lịch."
+      ],
+      excluded: [
+        "Chi phí vào Rừng Tràm Trà Sư (tự túc vé thuyền).",
+        "Chi phí cá nhân."
+      ]
+    },
+    policy: {
+      booking: "Đặt cọc 50% khi đăng ký. Thanh toán phần còn lại 5 ngày trước khởi hành.",
+      cancellation: "Hủy tour trước 7 ngày: hoàn 70% tiền tour. Hủy tour trong vòng 3 ngày: không hoàn tiền.",
+      notes: "Chương trình tour đi bằng xe khách, quý khách nên mang theo mũ nón, kem chống nắng."
+    }
+  },
+  {
+    id: 15,
+    name: "Tour Đài Loan 5 ngày 4 đêm: Đài Bắc - Đài Trung (Mùa hoa Anh Đào)",
+    destination: "Đài Loan",
+    destinationSuggestions: [
+      "Đài Loan",
+      "Hàn Quốc",
+      "Nhật Bản",
+      "Hồng Kông"
+    ],
+    departure: "Hà Nội/TP. Hồ Chí Minh",
+    startDate: "2026-03-25",
+    endDate: "2026-03-29",
+    duration: "5 ngày 4 đêm",
+    durationRange: "4-7 ngày",
+    price: 14590000,
+    images: [
+      "https://letravel.vn/uploaded/tour/tour-dai-loan/tourdulichdailoanmuahoaanhdao5n4dem.jpg",
+      "https://booking.pystravel.vn/uploads/posts/albums/6963/f69bdff52a1da1672c7a4927546ca214.jpg"
+    ],
+    description: "Khám phá xứ sở trà sữa và những nét văn hóa độc đáo, ghé thăm Đài Bắc hiện đại và Đài Trung lãng mạn.",
+    highlights: [
+      "Tháp Taipei 101 (chụp ảnh bên ngoài)",
+      "Hồ Nhật Nguyệt (Sun Moon Lake)",
+      "Phố cổ Thập Phần (Shifen)",
+      "Chợ đêm Sĩ Lâm (Shilin)"
+    ],
+    categoryid: 2,
+    isfeatured: true,
+    schedule: {
+      day1: "Việt Nam - Đài Bắc: Khởi hành, tham quan Cố Cung Đài Bắc (chụp ảnh bên ngoài).",
+      day2: "Đài Bắc: Tham quan Công viên Địa chất Dã Liễu (Yehliu), thả đèn trời tại Phố cổ Thập Phần (Shifen). Tối mua sắm tại chợ đêm Sĩ Lâm.",
+      day3: "Đài Bắc - Đài Trung: Tham quan Hồ Nhật Nguyệt (Sun Moon Lake), Văn Võ Miếu. Chiều tham quan Nhà hát Lớn Đài Trung.",
+      day4: "Đài Trung - Đài Bắc: Tham quan Làng Cầu Vồng. Quay về Đài Bắc. Tự do mua sắm tại Taipei 101.",
+      day5: "Đài Bắc - Việt Nam: Tham quan Đài Tưởng niệm Tưởng Giới Thạch. Ra sân bay về Việt Nam."
+    },
+    priceDetails: {
+      included: [
+        "Vé máy bay khứ hồi (Việt Nam - Đài Bắc).",
+        "Khách sạn tiêu chuẩn 4 sao (4 đêm).",
+        "Các bữa ăn theo chương trình (4 bữa sáng, 5 bữa chính).",
+        "Visa Quan Hồng (nếu đủ điều kiện) hoặc phí hỗ trợ Visa.",
+        "Vé tham quan các điểm theo chương trình.",
+        "Bảo hiểm du lịch quốc tế, tiền tips cho HDV và tài xế."
+      ],
+      excluded: [
+        "Phí hành lý ký gửi (tùy hãng hàng không).",
+        "Chi phí cá nhân, đồ uống."
+      ]
+    },
+    policy: {
+      booking: "Đặt cọc 5.000.000 VNĐ và nộp hồ sơ xin Visa (nếu cần). Hoàn tất thanh toán 21 ngày trước khởi hành.",
+      cancellation: "Trượt Visa: Phí 3.000.000 VNĐ/khách + phí Visa. Hủy tour sau khi có Visa: Phí 100% tiền cọc và phí Visa. Hủy tour dưới 14 ngày: Phí 100% giá tour.",
+      notes: "Mùa Hoa Anh Đào thường vào cuối tháng 3. Yêu cầu hộ chiếu còn hạn ít nhất 6 tháng."
+    }
+  },
+  {
+    id: 16,
+    name: "Tour Trọn Gói Hà Giang 4 ngày 3 đêm: Cột cờ Lũng Cú - Mã Pì Lèng",
+    destination: "Hà Giang, Đông Bắc",
+    destinationSuggestions: [
+      "Hà Giang",
+      "Đông Bắc",
+      "Cao Bằng",
+      "Lạng Sơn"
+    ],
+    departure: "Hà Nội",
+    startDate: "2026-03-05",
+    endDate: "2026-03-08",
+    duration: "4 ngày 3 đêm",
+    durationRange: "4-7 ngày",
+    price: 3890000,
+    images: [
+      "https://catbaexpress.com/upload/images/cot-co-lung-cu-ha-giang.jpg",
+      "https://cattour.vn/images/products/2022/10/22/du-lich-ha-giang-cattour-22-428.jpg"
+    ],
+    description: "Hành trình chinh phục 'cực Bắc', khám phá cao nguyên đá Đồng Văn và đèo Mã Pì Lèng huyền thoại.",
+    highlights: [
+      "Chinh phục Cột cờ Lũng Cú",
+      "Ngắm hẻm vực Tu Sản trên đèo Mã Pì Lèng",
+      "Dinh thự họ Vương"
+    ],
+    categoryid: 1,
+    isfeatured: true,
+    schedule: {
+      day1: "Hà Nội - Hà Giang: Di chuyển đến Hà Giang, nghỉ đêm.",
+      day2: "Hà Giang - Đồng Văn: Cổng trời Quản Bạ, Phố Cáo, Dinh thự họ Vương, Phố cổ Đồng Văn.",
+      day3: "Đồng Văn - Mèo Vạc - Hà Giang: Thăm Cột cờ Lũng Cú, đi qua đèo Mã Pì Lèng, ngắm sông Nho Quế, về Hà Giang.",
+      day4: "Hà Giang - Hà Nội: Mua sắm đặc sản, trở về Hà Nội."
+    },
+    priceDetails: {
+      included: [
+        "Xe ô tô đời mới (xe giường nằm/ghế ngồi tùy chọn) khứ hồi.",
+        "Khách sạn/Homestay tại các điểm (3 đêm).",
+        "Các bữa ăn theo chương trình (3 bữa sáng, 4 bữa chính).",
+        "Vé tham quan các điểm theo chương trình.",
+        "Bảo hiểm du lịch."
+      ],
+      excluded: [
+        "Chi phí thuê xe máy (nếu có), chi phí cá nhân, đồ uống."
+      ]
+    },
+    policy: {
+      booking: "Đặt cọc 40% giá tour. Thanh toán hết 7 ngày trước khởi hành.",
+      cancellation: "Hủy tour trước 10 ngày: Phí 20%. Hủy tour dưới 5 ngày: Phí 100%.",
+      notes: "Chương trình tour yêu cầu sức khỏe tốt, đường đèo nguy hiểm."
+    }
+  },
+  {
+    id: 17,
+    name: "Tour Côn Đảo 3 ngày 2 đêm: Về nguồn linh thiêng",
+    destination: "Côn Đảo, Bà Rịa - Vũng Tàu",
+    destinationSuggestions: [
+      "Côn Đảo",
+      "Phú Quốc",
+      "Đảo Lý Sơn"
+    ],
+    departure: "TP. Hồ Chí Minh",
+    startDate: "2026-04-10",
+    endDate: "2026-04-12",
+    duration: "3 ngày 2 đêm",
+    durationRange: "1-3 ngày",
+    price: 7590000,
+    images: [
+      "https://tanbaysaccauvong.com/wp-content/uploads/2018/12/condao.jpg",
+      "https://www.vietnambooking.com/wp-content/uploads/2020/07/Cd3.jpg"
+    ],
+    description: "Khám phá vẻ đẹp thiên nhiên hoang sơ và các di tích lịch sử linh thiêng tại Côn Đảo.",
+    highlights: [
+      "Viếng mộ Cô Sáu (nửa đêm)",
+      "Tham quan Nhà tù Côn Đảo",
+      "Tắm biển Đầm Trầu"
+    ],
+    categoryid: 1,
+    isfeatured: false,
+    schedule: {
+      day1: "TP.HCM - Côn Đảo: Đến Côn Đảo, tham quan trại giam Phú Hải, Chuồng Cọp. Tối viếng Nghĩa trang Hàng Dương.",
+      day2: "Khám phá Côn Đảo: Tham quan Miếu Bà Phi Yến, tắm biển bãi Đầm Trầu. Chiều tự do.",
+      day3: "Côn Đảo - TP.HCM: Thăm chợ Côn Đảo, mua sắm đặc sản. Ra sân bay về TP.HCM."
+    },
+    priceDetails: {
+      included: [
+        "Vé máy bay khứ hồi TP.HCM - Côn Đảo (bao gồm 7kg hành lý xách tay).",
+        "Khách sạn tiêu chuẩn 3 sao (2 đêm).",
+        "Các bữa ăn theo chương trình (2 bữa sáng, 2 bữa trưa).",
+        "Xe vận chuyển tham quan.",
+        "Vé tham quan các điểm theo chương trình.",
+        "Bảo hiểm du lịch."
+      ],
+      excluded: [
+        "Bữa tối, chi phí cá nhân."
+      ]
+    },
+    policy: {
+      booking: "Thanh toán 100% giá tour do vé máy bay Côn Đảo thường phải xuất sớm.",
+      cancellation: "Hủy tour sau khi xuất vé: Phí 100% giá tour.",
+      notes: "Nên mang trang phục kín đáo khi viếng các điểm tâm linh."
+    }
+  },
+  {
+    id: 18,
+    name: "Tour Tây Nguyên 4 ngày 3 đêm: Đà Lạt - Pleiku - Buôn Ma Thuột",
+    destination: "Lâm Đồng, Gia Lai, Đắk Lắk",
+    destinationSuggestions: [
+      "Đà Lạt",
+      "Pleiku",
+      "Buôn Ma Thuột",
+      "Kon Tum"
+    ],
+    departure: "TP. Hồ Chí Minh",
+    startDate: "2026-02-15",
+    endDate: "2026-02-18",
+    duration: "4 ngày 3 đêm",
+    durationRange: "4-7 ngày",
+    price: 5190000,
+    images: [
+      "https://www.vietnambooking.com/wp-content/uploads/2017/09/tour-tay-nguyen-buon-me-thuot-pleiku-kon-tum-4n3d-3.jpg",
+      "https://aulacviet.vn/wp-content/uploads/2021/05/BMT2.jpg"
+    ],
+    description: "Khám phá vùng đất đỏ Bazan hùng vĩ, thưởng thức cà phê và tìm hiểu văn hóa cồng chiêng Tây Nguyên.",
+    highlights: [
+      "Tham quan Biển Hồ T'Nưng (Pleiku)",
+      "Buôn Đôn (Đắk Lắk)",
+      "Thưởng thức cà phê Buôn Ma Thuột"
+    ],
+    categoryid: 1,
+    isfeatured: false,
+    schedule: {
+      day1: "TP.HCM - Đà Lạt: Đến Đà Lạt, thăm Thiền viện Trúc Lâm, Hồ Tuyền Lâm. Nghỉ đêm Đà Lạt.",
+      day2: "Đà Lạt - Pleiku: Di chuyển lên Pleiku. Tham quan Biển Hồ T'Nưng, Chùa Minh Thành.",
+      day3: "Pleiku - Buôn Ma Thuột: Thăm thác Dray Sap, khám phá Buôn Đôn. Tối thưởng thức ẩm thực địa phương.",
+      day4: "Buôn Ma Thuột - TP.HCM: Mua sắm cà phê, cao su. Ra sân bay Buôn Ma Thuột về TP.HCM."
+    },
+    priceDetails: {
+      included: [
+        "Xe du lịch đời mới suốt tuyến.",
+        "Khách sạn tiêu chuẩn 3 sao (3 đêm).",
+        "Các bữa ăn theo chương trình (3 bữa sáng, 4 bữa chính).",
+        "Vé tham quan các điểm.",
+        "Bảo hiểm du lịch."
+      ],
+      excluded: [
+        "Vé máy bay/tàu xe khứ hồi TP.HCM - Đà Lạt/Buôn Ma Thuột - TP.HCM.",
+        "Chi phí cưỡi voi (tại Buôn Đôn)."
+      ]
+    },
+    policy: {
+      booking: "Đặt cọc 30% giá tour. Thanh toán hết 7 ngày trước khởi hành.",
+      cancellation: "Hủy tour trước 15 ngày: hoàn 80% tiền tour. Hủy tour dưới 7 ngày: không hoàn tiền.",
+      notes: "Lịch trình có thể thay đổi tùy thuộc vào điều kiện thời tiết thực tế."
+    }
+  },
+  {
+    id: 19,
+    name: "Tour Úc 7 ngày 6 đêm: Sydney - Melbourne (Mùa thu vàng)",
+    destination: "Úc",
+    destinationSuggestions: [
+      "Úc",
+      "New Zealand",
+      "Canada"
+    ],
+    departure: "Hà Nội/TP. Hồ Chí Minh",
+    startDate: "2026-04-20",
+    endDate: "2026-04-26",
+    duration: "7 ngày 6 đêm",
+    durationRange: "4-7 ngày",
+    price: 42990000,
+    images: [
+      "https://datviettour.com.vn/uploads/images/chau-uc/uc/danh-thang/850px/melbourne-850x640.jpg",
+      "https://bankervn.com/wp-content/uploads/2024/09/Kinh-nghiem-du-lich-Uc-tu-tuc.jpg"
+    ],
+    description: "Khám phá hai thành phố lớn nhất nước Úc: Sydney hiện đại và Melbourne cổ kính, ngắm Lá Vàng Rơi.",
+    highlights: [
+      "Nhà hát Opera Sydney",
+      "Cầu cảng Sydney Harbour Bridge",
+      "Con đường Đại Dương (Great Ocean Road)"
+    ],
+    categoryid: 2,
+    isfeatured: true,
+    schedule: {
+      day1: "Việt Nam - Sydney: Khởi hành, nghỉ đêm trên máy bay.",
+      day2: "Sydney: Tham quan Nhà hát Opera, The Rocks. Chiều đi Blue Mountains.",
+      day3: "Sydney: Tham quan Bãi biển Bondi, Thủy cung Sydney. Tự do mua sắm.",
+      day4: "Sydney - Melbourne: Bay đến Melbourne. Tham quan Quảng trường Federation Square, Nhà thờ St Patrick.",
+      day5: "Melbourne: Khám phá Great Ocean Road và 12 Vị Tông Đồ (12 Apostles).",
+      day6: "Melbourne: Tham quan chợ Queen Victoria Market, Khu phố Docklands. Tối ăn tối tiễn đoàn.",
+      day7: "Melbourne - Việt Nam: Ra sân bay về Việt Nam."
+    },
+    priceDetails: {
+      included: [
+        "Vé máy bay khứ hồi và nội địa (Việt Nam - Sydney/Melbourne - Việt Nam).",
+        "Khách sạn tiêu chuẩn 4 sao (5 đêm).",
+        "Các bữa ăn theo chương trình.",
+        "Phí Visa Úc.",
+        "Vé tham quan các điểm, bảo hiểm du lịch quốc tế.",
+        "Tiền tips cho HDV và tài xế."
+      ],
+      excluded: [
+        "Chi phí cá nhân, đồ uống, mua sắm."
+      ]
+    },
+    policy: {
+      booking: "Đặt cọc 20.000.000 VNĐ và nộp hồ sơ xin Visa. Hoàn tất thanh toán 30 ngày trước khởi hành.",
+      cancellation: "Trượt Visa: Phí 3.000.000 VNĐ/khách + phí Visa. Hủy tour sau khi có Visa: Phí 100% tiền cọc + phí Visa.",
+      notes: "Yêu cầu hộ chiếu còn hạn 6 tháng. Khách cần chuẩn bị hồ sơ Visa đầy đủ."
+    }
+  },
+  {
+    id: 20,
+    name: "Tour Châu Âu 10 ngày 9 đêm: Pháp - Bỉ - Hà Lan - Đức",
+    destination: "Pháp, Bỉ, Hà Lan, Đức",
+    destinationSuggestions: [
+      "Pháp",
+      "Bỉ",
+      "Hà Lan",
+      "Đức",
+      "Ý"
+    ],
+    departure: "Hà Nội/TP. Hồ Chí Minh",
+    startDate: "2026-06-10",
+    endDate: "2026-06-19",
+    duration: "10 ngày 9 đêm",
+    durationRange: "8-14 ngày",
+    price: 59990000,
+    images: [
+      "https://entervietnam.com.vn/wp-content/uploads/2018/04/York-Minster.jpg",
+      "https://deviet.vn/wp-content/uploads/2019/09/phap-bi-ha-lan-duc.jpg"
+    ],
+    description: "Hành trình khám phá Tây Âu cổ kính: từ tháp Eiffel đến những cối xay gió Hà Lan.",
+    highlights: [
+      "Tháp Eiffel (Pháp)",
+      "Quảng trường Grand Place (Bỉ)",
+      "Khu cối xay gió Kinderdijk (Hà Lan)",
+      "Nhà thờ Cologne (Đức)"
+    ],
+    categoryid: 2,
+    isfeatured: false,
+    schedule: {
+      day1: "Việt Nam - Paris (Pháp): Khởi hành.",
+      day2: "Paris: Tham quan Tháp Eiffel, Khải Hoàn Môn, Du thuyền trên sông Seine.",
+      day3: "Paris: Thăm bảo tàng Louvre (chụp ảnh bên ngoài), Nhà thờ Đức Bà Paris (bên ngoài). Mua sắm tại Galeries Lafayette.",
+      day4: "Paris - Brussels (Bỉ): Di chuyển đến Brussels. Tham quan Tượng Manneken Pis, Quảng trường Grand Place.",
+      day5: "Brussels - Amsterdam (Hà Lan): Di chuyển đến Amsterdam. Tham quan Xưởng kim cương, Quảng trường Dam.",
+      day6: "Amsterdam: Khám phá Làng cối xay gió Zaanse Schans, Khu cối xay gió Kinderdijk.",
+      day7: "Amsterdam - Cologne (Đức): Di chuyển đến Cologne. Tham quan Nhà thờ Lớn Cologne.",
+      day8: "Cologne - Frankfurt: Tham quan Phố cổ Frankfurt, Tòa thị chính Römer.",
+      day9: "Frankfurt: Tự do mua sắm/tham quan. Tối ăn tối tiễn đoàn.",
+      day10: "Frankfurt - Việt Nam: Ra sân bay về Việt Nam."
+    },
+    priceDetails: {
+      included: [
+        "Vé máy bay quốc tế khứ hồi.",
+        "Khách sạn tiêu chuẩn 4 sao (8 đêm).",
+        "Các bữa ăn theo chương trình.",
+        "Visa Schengen (châu Âu).",
+        "Xe vận chuyển cao cấp, bảo hiểm du lịch quốc tế, tiền tips."
+      ],
+      excluded: [
+        "Chi phí cá nhân, đồ uống, vé tham quan các bảo tàng (nếu không có trong chương trình)."
+      ]
+    },
+    policy: {
+      booking: "Đặt cọc 25.000.000 VNĐ và nộp hồ sơ Visa. Hoàn tất thanh toán 45 ngày trước khởi hành.",
+      cancellation: "Trượt Visa: Phí 5.000.000 VNĐ/khách + phí Visa. Hủy tour sau khi có Visa: Phí 100% tiền cọc và phí Visa. Hủy tour dưới 45 ngày: Phí 100% giá tour.",
+      notes: "Hạn chót nộp hồ sơ Visa là 60 ngày trước ngày khởi hành."
+    }
+  },
+  {
+    id: 21,
+    name: "Tour Dubai - Abu Dhabi 6 ngày 5 đêm: Sa mạc và Tinh hoa kiến trúc",
+    destination: "Dubai, Abu Dhabi (UAE)",
+    destinationSuggestions: [
+      "Dubai",
+      "Abu Dhabi",
+      "Qatar",
+      "Oman"
+    ],
+    departure: "TP. Hồ Chí Minh",
+    startDate: "2026-05-01",
+    endDate: "2026-05-06",
+    duration: "6 ngày 5 đêm",
+    durationRange: "4-7 ngày",
+    price: 28990000,
+    images: [
+      "https://vietqueentravel.vn/upload/2022-04-24/tour-dubai-6-ngay-6.jpg",
+      "https://www.vietnambooking.com/wp-content/uploads/2017/01/du-lich-dubai-14-10-2017-9.jpg"
+    ],
+    description: "Trải nghiệm Dubai xa hoa với kiến trúc đỉnh cao và cuộc sống du mục trên sa mạc.",
+    highlights: [
+      "Tháp Burj Khalifa (chụp ảnh)",
+      "Đảo Cây Cọ Palm Jumeirah",
+      "Tour khám phá sa mạc (Desert Safari)",
+      "Thánh đường Hồi giáo Sheikh Zayed (Abu Dhabi)"
+    ],
+    categoryid: 2,
+    isfeatured: true,
+    schedule: {
+      day1: "TP.HCM - Dubai: Khởi hành.",
+      day2: "Dubai: Tham quan Phố cổ Bastakiya, Du thuyền Abra, Tháp Burj Khalifa (chụp ảnh). Chiều mua sắm tại Dubai Mall.",
+      day3: "Dubai: Đảo Cây Cọ, Khách sạn cánh buồm Burj Al Arab (chụp ảnh). Chiều tham gia Desert Safari (Ăn tối BBQ trên sa mạc).",
+      day4: "Dubai - Abu Dhabi: Di chuyển đến Abu Dhabi. Tham quan Thánh đường Hồi giáo Sheikh Zayed, Tòa nhà Capital Gate.",
+      day5: "Abu Dhabi - Dubai: Tham quan Bảo tàng Louvre Abu Dhabi (chụp ảnh). Chiều quay về Dubai, tự do mua sắm/giải trí.",
+      day6: "Dubai - TP.HCM: Ra sân bay về Việt Nam."
+    },
+    priceDetails: {
+      included: [
+        "Vé máy bay khứ hồi.",
+        "Khách sạn tiêu chuẩn 4 sao (4 đêm).",
+        "Các bữa ăn theo chương trình.",
+        "Visa nhập cảnh UAE.",
+        "Vé tham quan các điểm, Desert Safari, bảo hiểm du lịch.",
+        "Tiền tips cho HDV và tài xế."
+      ],
+      excluded: [
+        "Chi phí lên đỉnh Burj Khalifa, phí cá nhân."
+      ]
+    },
+    policy: {
+      booking: "Đặt cọc 10.000.000 VNĐ/khách. Hoàn tất thanh toán 21 ngày trước khởi hành.",
+      cancellation: "Hủy tour sau khi làm Visa: Phí 100% tiền cọc + phí Visa. Hủy tour dưới 14 ngày: Phí 100% giá tour.",
+      notes: "Thời tiết Dubai tháng 5 khá nóng. Trang phục lịch sự khi vào thánh đường."
+    }
+  },
+  {
+    id: 22,
+    name: "Tour Nam Mỹ 12 ngày 11 đêm: Argentina - Brazil - Peru (Tùy chọn)",
+    destination: "Argentina, Brazil, Peru",
+    destinationSuggestions: [
+      "Argentina",
+      "Brazil",
+      "Peru",
+      "Chile"
+    ],
+    departure: "TP. Hồ Chí Minh",
+    startDate: "2026-07-01",
+    endDate: "2026-07-12",
+    duration: "12 ngày 11 đêm",
+    durationRange: "8-14 ngày",
+    price: 95000000,
+    images: [
+      "https://bizweb.dktcdn.net/thumb/1024x1024/100/452/284/products/thac-iguazu-3-125cd8aa-19ee-4ffb-aec3-6602681d9465-2b225b27-3ca5-48d3-9b23-a1429c68da57.jpg?v=1702352619590",
+      "https://tourvn.tabikobo.com/wordpress/wp-content/uploads/2019/05/Kh%C3%A1m-ph%C3%A1-V%C3%B9ng-%C4%91%E1%BA%A5t-c%E1%BB%A7a-nh%E1%BB%AFng-th%C3%A1c-n%C6%B0%E1%BB%9Bc.jpg"
+    ],
+    description: "Khám phá những kỳ quan vĩ đại của Nam Mỹ: Machu Picchu, Tượng Chúa Cứu Thế và vũ điệu Tango.",
+    highlights: [
+      "Thành cổ Machu Picchu (Peru)",
+      "Tượng Chúa Cứu Thế Christ the Redeemer (Brazil)",
+      "Thủ đô Tango Buenos Aires (Argentina)"
+    ],
+    categoryid: 2,
+    isfeatured: false,
+    schedule: {
+      day1: "Việt Nam - Buenos Aires (Argentina): Khởi hành.",
+      day2: "Buenos Aires: Đến nơi, tham quan Nhà hát Colon, Phố Caminito. Tối thưởng thức show Tango.",
+      day3: "Buenos Aires - Rio de Janeiro (Brazil): Bay đến Rio. Tham quan Bãi biển Copacabana, Tượng Chúa Cứu Thế.",
+      day4: "Rio de Janeiro: Thăm Đồi Sugarloaf. Tự do khám phá.",
+      day5: "Rio de Janeiro - Lima (Peru): Bay đến Lima. Tham quan Phố cổ Lima.",
+      day6: "Lima - Cusco - Thung lũng Linh thiêng: Bay đến Cusco. Khám phá Thung lũng Linh thiêng (Sacred Valley).",
+      day7: "Machu Picchu: Đi tàu đến Aguas Calientes. Tham quan Thành cổ Machu Picchu.",
+      day8: "Cusco - Lima: Quay về Cusco, tham quan Quảng trường Plaza de Armas. Bay về Lima.",
+      day9: "Lima: Tự do mua sắm/tham quan.",
+      day10: "Lima - Transit.",
+      day11: "Transit.",
+      day12: "Việt Nam: Về đến Việt Nam."
+    },
+    priceDetails: {
+      included: [
+        "Vé máy bay quốc tế và nội địa Nam Mỹ.",
+        "Khách sạn tiêu chuẩn 4 sao (9 đêm).",
+        "Các bữa ăn theo chương trình.",
+        "Vé tham quan Machu Picchu, Tượng Chúa Cứu Thế.",
+        "Hướng dẫn viên suốt tuyến, bảo hiểm du lịch quốc tế."
+      ],
+      excluded: [
+        "Visa các nước Nam Mỹ (nếu có), chi phí cá nhân, tiền tips bắt buộc (khoảng 10 USD/ngày)."
+      ]
+    },
+    policy: {
+      booking: "Đặt cọc 50.000.000 VNĐ. Hoàn tất thanh toán 60 ngày trước khởi hành.",
+      cancellation: "Hủy tour sau khi đặt cọc: Phí 100% tiền cọc. Hủy tour dưới 45 ngày: Phí 100% giá tour.",
+      notes: "Tour yêu cầu thời gian chuẩn bị Visa và thể lực tốt do di chuyển nhiều."
+    }
+  },
+  {
+    id: 23,
+    name: "Tour Miền Trung Di Sản 4 ngày 3 đêm: Quảng Bình - Quảng Trị",
+    destination: "Quảng Bình, Quảng Trị",
+    destinationSuggestions: [
+      "Quảng Bình",
+      "Quảng Trị",
+      "Huế",
+      "Đà Nẵng"
+    ],
+    departure: "Hà Nội",
+    startDate: "2026-03-20",
+    endDate: "2026-03-23",
+    duration: "4 ngày 3 đêm",
+    durationRange: "4-7 ngày",
+    price: 4990000,
+    images: [
+      "https://phongnhatourist.com/wp-content/uploads/2018/10/phong-nha-ke-bang-6-600x400.jpg",
+      "https://bizweb.dktcdn.net/thumb/grande/100/101/075/products/qb.jpg?v=1583584192593"
+    ],
+    description: "Khám phá 'Vương quốc hang động' Quảng Bình và các di tích lịch sử chiến tranh tại Quảng Trị.",
+    highlights: [
+      "Động Phong Nha/Tiên Sơn",
+      "Suối nước Moọc",
+      "Thành cổ Quảng Trị",
+      "Địa đạo Vĩnh Mốc"
+    ],
+    categoryid: 1,
+    isfeatured: false,
+    schedule: {
+      day1: "Hà Nội - Đồng Hới (Quảng Bình): Đến Đồng Hới, nhận phòng. Chiều tự do tắm biển Nhật Lệ.",
+      day2: "Quảng Bình: Tham quan Động Phong Nha (hoặc Tiên Sơn), khám phá Suối Nước Moọc.",
+      day3: "Quảng Bình - Quảng Trị: Tham quan Thánh địa La Vang, Thành cổ Quảng Trị, Địa đạo Vĩnh Mốc.",
+      day4: "Quảng Trị - Hà Nội: Mua sắm đặc sản, ra sân bay Đồng Hới về Hà Nội."
+    },
+    priceDetails: {
+      included: [
+        "Vé máy bay khứ hồi Hà Nội - Đồng Hới.",
+        "Khách sạn tiêu chuẩn 3 sao (3 đêm).",
+        "Các bữa ăn theo chương trình (3 bữa sáng, 3 bữa chính).",
+        "Vé tham quan, bảo hiểm du lịch."
+      ],
+      excluded: [
+        "Chi phí cá nhân, đồ uống."
+      ]
+    },
+    policy: {
+      booking: "Đặt cọc 50% ngay khi đăng ký. Thanh toán hết 7 ngày trước khởi hành.",
+      cancellation: "Hủy tour sau khi xuất vé máy bay: Phí 100% vé máy bay. Hủy tour dưới 7 ngày: Phí 100% giá tour.",
+      notes: "Lịch trình có thể thay đổi tùy thuộc vào điều kiện thời tiết."
+    }
+  },
+  {
+    id: 24,
+    name: "Tour Ai Cập 8 ngày 7 đêm: Kim tự tháp - Sông Nile",
+    destination: "Ai Cập",
+    destinationSuggestions: [
+      "Ai Cập",
+      "Thổ Nhĩ Kỳ",
+      "Hy Lạp",
+      "Israel"
+    ],
+    departure: "TP. Hồ Chí Minh",
+    startDate: "2026-08-10",
+    endDate: "2026-08-17",
+    duration: "8 ngày 7 đêm",
+    durationRange: "8-14 ngày",
+    price: 39500000,
+    images: [
+      "https://vietlandtravel.vn/upload/img/products/02092024/cairo-egypt.jpg",
+      "https://otrip.vn/wp-content/uploads/2025/02/2.png"
+    ],
+    description: "Hành trình về với nền văn minh cổ đại, khám phá Kim tự tháp và trải nghiệm du thuyền trên sông Nile.",
+    highlights: [
+      "Kim tự tháp Giza và Tượng Nhân Sư",
+      "Du thuyền trên sông Nile (3 đêm)",
+      "Đền Karnak và Luxor",
+      "Thung lũng các vị Vua"
+    ],
+    categoryid: 2,
+    isfeatured: true,
+    schedule: {
+      day1: "Việt Nam - Cairo (Ai Cập): Khởi hành.",
+      day2: "Cairo: Thăm Kim tự tháp Giza, Tượng Nhân Sư. Chiều tham quan Viện bảo tàng Ai Cập.",
+      day3: "Cairo - Luxor: Bay đến Luxor. Lên du thuyền sông Nile. Thăm Đền Karnak.",
+      day4: "Du thuyền Nile: Tham quan Thung lũng các vị Vua, Đền Hatshepsut.",
+      day5: "Du thuyền Nile: Thăm Đền Edfu, Đền Kom Ombo.",
+      day6: "Aswan - Cairo: Thăm đền Abu Simbel (tùy chọn, chi phí tự túc). Chiều bay về Cairo.",
+      day7: "Cairo: Tham quan Thành cổ Salah El Din, Chợ Khan El Khalili. Tối ăn tối tiễn đoàn.",
+      day8: "Cairo - Việt Nam: Ra sân bay về Việt Nam."
+    },
+    priceDetails: {
+      included: [
+        "Vé máy bay quốc tế và nội địa Ai Cập.",
+        "Du thuyền 5 sao trên sông Nile (3 đêm), Khách sạn 4 sao (4 đêm).",
+        "Các bữa ăn theo chương trình.",
+        "Visa Ai Cập.",
+        "Vé tham quan các điểm, bảo hiểm du lịch, tiền tips."
+      ],
+      excluded: [
+        "Vé tham quan bên trong Kim tự tháp, chi phí thăm Abu Simbel, phí cá nhân."
+      ]
+    },
+    policy: {
+      booking: "Đặt cọc 15.000.000 VNĐ và nộp hồ sơ Visa. Hoàn tất thanh toán 30 ngày trước khởi hành.",
+      cancellation: "Hủy tour sau khi làm Visa: Phí 100% tiền cọc + phí Visa. Hủy tour dưới 21 ngày: Phí 100% giá tour.",
+      notes: "Khí hậu Ai Cập nóng, nên chuẩn bị trang phục thoáng mát, kem chống nắng."
+    }
+  },
+  {
+    id: 25,
+    name: "Tour Đông Bắc Á 7 ngày 6 đêm: Hàn Quốc - Nhật Bản (Kết hợp)",
+    destination: "Hàn Quốc, Nhật Bản",
+    destinationSuggestions: [
+      "Hàn Quốc",
+      "Nhật Bản",
+      "Trung Quốc"
+    ],
+    departure: "Hà Nội",
+    startDate: "2026-04-15",
+    endDate: "2026-04-21",
+    duration: "7 ngày 6 đêm",
+    durationRange: "4-7 ngày",
+    price: 39990000,
+    images: [
+      "https://letstours.com/wp-content/uploads/2022/03/du_lich_dong_bac-3.jpg",
+      "https://thaiantravel.com/wp-content/uploads/2024/06/3-2-cung-dien-gyeongbokgung-kinh-nghiem-du-lich-han-quoc-2-1.jpg"
+    ],
+    description: "Hành trình ngắm hoa Anh Đào (tùy mùa) kết hợp hai nền văn hóa hiện đại và truyền thống của Hàn - Nhật.",
+    highlights: [
+      "Đảo Nami (Hàn Quốc)",
+      "Cung điện Gyeongbokgung (Hàn Quốc)",
+      "Núi Phú Sĩ (Nhật Bản)",
+      "Đền Asakusa Kannon (Nhật Bản)"
+    ],
+    categoryid: 2,
+    isfeatured: false,
+    schedule: {
+      day1: "Hà Nội - Seoul (Hàn Quốc): Khởi hành.",
+      day2: "Seoul: Thăm Cung điện Gyeongbokgung, Làng Bukchon Hanok, Đảo Nami.",
+      day3: "Seoul: Tự do mua sắm tại Myeongdong. Tối bay đi Osaka (Nhật Bản).",
+      day4: "Osaka - Kyoto: Đến Osaka, tham quan Lâu đài Osaka (bên ngoài). Chiều đi Kyoto, thăm Chùa Vàng Kinkaku-ji.",
+      day5: "Kyoto - Nagoya: Thăm Chùa Kiyomizu-dera. Đi tàu Shinkansen (tùy chọn) đến Nagoya.",
+      day6: "Nagoya - Tokyo: Thăm Núi Phú Sĩ (Tầng 5). Di chuyển về Tokyo.",
+      day7: "Tokyo - Hà Nội: Tham quan Đền Asakusa Kannon, chụp ảnh Tháp Skytree. Ra sân bay về Hà Nội."
+    },
+    priceDetails: {
+      included: [
+        "Vé máy bay khứ hồi (Việt Nam - Hàn Quốc/Nhật Bản - Việt Nam) và nội địa/liên tuyến.",
+        "Khách sạn tiêu chuẩn 3-4 sao (6 đêm).",
+        "Các bữa ăn theo chương trình.",
+        "Visa Hàn Quốc, Visa Nhật Bản (hoặc phí Visa đoàn).",
+        "Vé tham quan, bảo hiểm du lịch, tiền tips."
+      ],
+      excluded: [
+        "Vé tàu Shinkansen (nếu không chọn trọn gói), chi phí cá nhân."
+      ]
+    },
+    policy: {
+      booking: "Đặt cọc 15.000.000 VNĐ và nộp hồ sơ Visa. Hoàn tất thanh toán 30 ngày trước khởi hành.",
+      cancellation: "Trượt Visa: Phí 5.000.000 VNĐ/khách + phí Visa. Hủy tour sau khi có Visa: Phí 100% tiền cọc và phí Visa. Hủy tour dưới 14 ngày: Phí 100% giá tour.",
+      notes: "Tour này là tour kết hợp 2 quốc gia nên lịch trình di chuyển khá gấp, phù hợp với người thích khám phá."
+    }
+  }
 ];
 
 // Middleware xác thực JWT
@@ -669,9 +1381,7 @@ const authenticateJWT = (req, res, next) => {
 
 //API Products theo filter
 app.get("/api/products", (req, res) => {
-  const { id, departure } = req.query;
-  const page = parseInt(req.query.page); // Trang hiện tại
-  const limit = parseInt(req.query.limit); // Số item mỗi trang
+  const { id } = req.query;
 
   let filterProducts = products; // bắt đầu với tất cả sản phẩm
 
@@ -681,42 +1391,30 @@ app.get("/api/products", (req, res) => {
     filterProducts = filterProducts.filter((p) => p.categoryid === productId);
   }
 
-  // Lọc theo nơi khởi hành (departure). Hoặc Sau khi lọc id xong → nếu có departure → lọc tiếp trong list đã được lọc
-  if (departure) {
-    filterProducts = filterProducts.filter(
-      (p) => p.departure.toLowerCase() === departure.toLowerCase()
-    );
-  }
-
   // Không tìm thấy
   if (filterProducts.length === 0) {
     return res.status(404).json({ message: "Không tìm thấy sản phẩm" });
   }
 
-  //Phân trang
-  if (page && limit) {
-    const startIndex = (page - 1) * limit;
-    const endIndex = page * limit;
-
-    const data = filterProducts.slice(startIndex, endIndex);
-
-    res.json({
-      page,
-      limit,
-      total: filterProducts.length,
-      totalPages: Math.ceil(filterProducts.length / limit),
-      data,
-    });
-  }
-
-  //Còn không có 3 thằng trên thì nó sẽ hiện ra sản phẩm như thường
+  //Còn không có những thằng trên thì nó sẽ hiện ra sản phẩm như thường
   res.json(filterProducts);
 });
 
+//viết lại redux truyền id
 app.get("/api/products/:id", (req, res) => {
-  const product = products.find((p) => String(p.id) === req.params.id);
+  const product = products.find((p) => p.id === Number(req.params.id));
   if (product) res.json(product);
   else res.status(404).json({ message: "Không tìm sản phẩm" });
+});
+
+//API sản phẩm liên quan
+app.get("/api/relatedproducts/:id", (req, res) => {
+  const product = products.find((p) => p.id === Number(req.params.id));
+  if (product) {
+    let cateProducts = products.filter((p) => p.categoryid === product.categoryid);
+    cateProducts = cateProducts.filter((p) => p.id !== product.id);
+    res.json(cateProducts);
+  } else res.status(404).json({ message: "Không tìm sản phẩm" });
 });
 
 // API Xác thực

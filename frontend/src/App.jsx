@@ -7,7 +7,7 @@ import Register from "./Screens/Register/Register";
 import Login from "./Screens/Login/Login";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import Product from "./Screens/Product/Product";
-import TestYub from "./components/TestYub/TestYub";
+import Tabs from "./components/TestYub/TestYub";
 
 const App = () => {
   return (
@@ -33,7 +33,7 @@ const App = () => {
         <Route path="/tour-du-lich/:id" element={<ProductDetail />}/>
         <Route path="/dang-ky" element={<Register />} />
         <Route path="/dang-nhap" element={<Login />} />
-        <Route path="/test" element={<TestYub />}/>
+        <Route path="/test" element={<Tabs />}/>
       </Routes>
       <Footer />
     </BrowserRouter>
